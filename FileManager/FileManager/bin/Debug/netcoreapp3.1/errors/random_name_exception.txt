@@ -1,0 +1,18 @@
+ 22:56:33  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\user\source\repos\FileManager\FileManager\bin\Debug\netcoreapp3.1\dasdasd'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFileSystemEntries(String path)
+   at FileManager.Program.<Main>g__ls|0_1(String source) in C:\Users\user\source\repos\FileManager\FileManager\Program.cs:line 88
+ 23:06:23  System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\user\source\repos\FileManager\FileManager\bin\Debug\netcoreapp3.1\dasdas'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFileSystemEntries(String path)
+   at FileManager.Program.<Main>g__ls|0_1(String source) in C:\Users\user\source\repos\FileManager\FileManager\Program.cs:line 95
